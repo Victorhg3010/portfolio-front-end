@@ -1,0 +1,19 @@
+body {
+    background-color: #0A1128;
+    color: #F8F8FF;
+}
+
+strong {
+    color: #6A5ACD;
+}
+h1{
+            font-weight: bold;
+}
+ 
+span{
+            color: #6A5ACD;
+            border: none #6A5ACD;
+            padding: 10px;
+
+
+}
