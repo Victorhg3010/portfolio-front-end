@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a  class="cabecalho__menu__link" href="index.html">Home</a>
+            <a  class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+           
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">
@@ -18,13 +24,28 @@
                 Sou um desenvolvedor <span>Front-end</span> dedicado a transformar ideias em experiências digitais incríveis.
             </p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://instagram.com/victor_hg30">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/Victorhg3010">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://instagram.com/victor_hg30/">
+                    <img src="assets/instagram (1).png">
+                    Instagram
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/Victorhg3010">
+                    <img src="assets/github (1).png">
+                    Github
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/victor-hugo-a57201206/">
+                    <img src="assets/linkedin (1).png">
+                    linkedin
+                </a>
+                   
+
             </div>
         </section>
-        <img class="apresentacao__imagem" src="html.png" alt="Imagemhtml">
+        <img class="apresentacao__imagem" src="assets/html.png" alt="Imagemhtml">
       
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
+    </footer>
 </body>
 </html>
